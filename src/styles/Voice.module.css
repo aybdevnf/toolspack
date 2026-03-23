@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.record_btn{
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition:all 0.3s;
+  padding:12px;
+  font-size:18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.record_btn:hover{
+  background-color: grey;
+}
+.btns{
+  display:flex;
+  gap:20px;
+}
+.disabled{
+  opacity: 0.7;
+  transition: none;
+  cursor: auto;
+}
+.disabled:hover{
+  background-color:transparent;
+}
+.hide{
+  display: none;
+}
+.link{
+  text-decoration: none;
+  transition:all 0.3s;
+}
+.link:hover{
+  color: rgb(157, 91, 219);
+}

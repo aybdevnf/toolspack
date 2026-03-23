@@ -1,0 +1,50 @@
+.task_input{
+  border: 2px solid #fff;
+  padding:12px;
+  background-color:transparent;
+  outline: none;
+  font-size:18px;
+  font-weight:bold;
+  width: 100%;
+}
+.task_options{
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+.add_btn, .delete_btn{
+  padding:5px 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition:all 0.3s;
+  background-color: #000;
+  cursor:pointer;
+}
+.delete_btn{
+  padding:12px;
+}
+.add_btn:hover, .delete_btn:hover{
+  background-color: grey;
+}
+.todo_list{
+  padding:24px;
+}
+.tasks_container{
+  display: flex;
+  flex-direction: column;
+  margin-top:10px;
+  gap: 10px;
+}
+.task_container{
+  display:grid;
+  grid-template-columns: 1fr 80px;
+  justify-content: center;
+}
+.checked{
+  text-decoration:line-through;
+  color:grey;
+}
+.task_name{
+  cursor: pointer;
+}

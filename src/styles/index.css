@@ -1,0 +1,45 @@
+*{
+  font-family: "Pixelify Sans", sans-serif;
+  box-sizing: border-box;
+  color:#fff;
+}
+body{
+  margin: 0;
+  background-color: #000;
+  padding-top:120px;
+}
+::-webkit-scrollbar{
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#fff;
+}
+.encode_page{
+  display: initial;
+}
+.menu{
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  position:fixed;
+  text-align: center;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  transform:translateX(-300%);
+  transition: all 0.7s;
+  gap:10px;
+  z-index:200;
+}
+.opened{
+  transform: translateX(0%);
+}
+.show{
+  display:initial;
+}
+.hide{
+  display: none;
+}

@@ -1,0 +1,26 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.color_input{
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width:100px;
+  height:100px;
+}
+.colors{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-bottom:20px;
+}
+.value{
+  background-color: #000;
+  cursor: pointer;
+}
